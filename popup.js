@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 捐赠按钮 - 请替换为你的 PayPal 捐赠链接
   donateBtn.addEventListener('click', () => {
     // 在此处替换为你的实际 PayPal 捐赠链接
-    const paypalLink = 'https://www.paypal.com/donate/?hosted_button_id=YOUR_BUTTON_ID';
+    const paypalLink = 'https://paypal.me/thankyouforyourhlp';
     chrome.tabs.create({ url: paypalLink });
   });
 
