@@ -23,6 +23,10 @@
     "message": "📄 Export as File",
     "description": "Export button"
   },
+  "donateBtn": {
+    "message": "❤️ Donate",
+    "description": "Donate button"
+  },
   "clearBtn": {
     "message": "🗑️ Clear All",
     "description": "Clear all button"
