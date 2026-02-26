@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Text Cache Helper",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Right-click to save selected text to local cache",
+    "description": "Extension description"
+  },
+  "contextMenuTitle": {
+    "message": "Cache selected text",
+    "description": "Right-click menu title"
+  },
+  "popupTitle": {
+    "message": "📋 Cached Text",
+    "description": "Popup window title"
+  },
+  "copyAllBtn": {
+    "message": "📋 Copy All",
+    "description": "Copy all button"
+  },
+  "exportBtn": {
+    "message": "📄 Export as File",
+    "description": "Export button"
+  },
+  "clearBtn": {
+    "message": "🗑️ Clear All",
+    "description": "Clear all button"
+  },
+  "deleteBtn": {
+    "message": "Delete",
+    "description": "Single item delete button"
+  },
+  "emptyMsg": {
+    "message": "No cached content",
+    "description": "Message when no items"
+  },
+  "noCopyContent": {
+    "message": "No content to copy",
+    "description": "Alert when copy all with empty list"
+  },
+  "copySuccess": {
+    "message": "All content copied to clipboard",
+    "description": "Success message after copy"
+  },
+  "copyFail": {
+    "message": "Copy failed, please try manually",
+    "description": "Failure message after copy"
+  },
+  "noExportContent": {
+    "message": "No content to export",
+    "description": "Alert when export with empty list"
+  },
+  "confirmClear": {
+    "message": "Are you sure you want to clear all cache?",
+    "description": "Confirmation dialog for clear all"
+  }
+}
