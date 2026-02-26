@@ -23,6 +23,10 @@
     "message": "📄 导出为文件",
     "description": "导出按钮"
   },
+  "donateBtn": {
+    "message": "❤️ 捐赠",
+    "description": "捐赠按钮"
+  },
   "clearBtn": {
     "message": "🗑️ 清空所有",
     "description": "清空所有按钮"
