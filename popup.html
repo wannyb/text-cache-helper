@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 450px;
+      max-height: 500px;
+      overflow-y: auto;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      font-size: 13px; /* 整体调小字体 */
+    }
+    h3 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 16px;
+    }
+    .item {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 8px;
+      margin-bottom: 8px;
+      background: #f9f9f9;
+      position: relative;
+    }
+    .text {
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 180px;
+      overflow-y: auto;
+      background: #fff;
+      padding: 6px;
+      border-radius: 4px;
+      border: 1px solid #eee;
+      font-size: 12px;  /* 文本字体稍小 */
+      line-height: 1.5;
+      margin-bottom: 8px; /* 为按钮留出空间 */
+    }
+    .delete {
+      background-color: #6c757d; /* 柔和的灰色 */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: 12px;
+      cursor: pointer;
+      float: right; /* 按钮右对齐 */
+    }
+    .delete:hover {
+      opacity: 0.9;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 12px;
+      gap: 6px;
+    }
+    .footer button {
+      flex: 1;
+      padding: 8px 4px;
+      border: none;
+      border-radius: 4px;
+      background: #2196F3;
+      color: white;
+      cursor: pointer;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    .footer button.clear {
+      background: #f44336; /* 保留红色警示 */
+    }
+    .footer button:hover {
+      opacity: 0.9;
+    }
+    /* 清除浮动 */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+<body>
+  <h3>📋 缓存的文字</h3>
+
+  <div id="items"></div>
+
+  <div class="footer">
+    <button id="copyAll">📋 复制所有</button>
+    <button id="export">📄 导出为文件</button>
+    <button id="clear" class="clear">🗑️ 清空所有</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
