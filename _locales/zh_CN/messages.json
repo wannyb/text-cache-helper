@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "文本缓存助手",
+    "description": "扩展名称"
+  },
+  "extDesc": {
+    "message": "右键保存选中文字到本地缓存",
+    "description": "扩展描述"
+  },
+  "contextMenuTitle": {
+    "message": "缓存选中文字",
+    "description": "右键菜单标题"
+  },
+  "popupTitle": {
+    "message": "📋 缓存的文字",
+    "description": "弹出窗口标题"
+  },
+  "copyAllBtn": {
+    "message": "📋 复制所有",
+    "description": "复制所有按钮"
+  },
+  "exportBtn": {
+    "message": "📄 导出为文件",
+    "description": "导出按钮"
+  },
+  "clearBtn": {
+    "message": "🗑️ 清空所有",
+    "description": "清空所有按钮"
+  },
+  "deleteBtn": {
+    "message": "删除",
+    "description": "单条删除按钮"
+  },
+  "emptyMsg": {
+    "message": "暂无缓存内容",
+    "description": "无内容时显示的提示"
+  },
+  "noCopyContent": {
+    "message": "没有缓存内容可复制",
+    "description": "复制所有时无内容的提示"
+  },
+  "copySuccess": {
+    "message": "已复制所有内容到剪贴板",
+    "description": "复制成功提示"
+  },
+  "copyFail": {
+    "message": "复制失败，请手动操作",
+    "description": "复制失败提示"
+  },
+  "noExportContent": {
+    "message": "没有缓存内容可导出",
+    "description": "导出时无内容的提示"
+  },
+  "confirmClear": {
+    "message": "确定要清空所有缓存吗？",
+    "description": "清空所有确认对话框"
+  }
+}
